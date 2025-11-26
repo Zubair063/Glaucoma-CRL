@@ -141,19 +141,6 @@ python evaluation/evaluate_checkpoint.py \
 | `--lambda_v` | 1.0 | Weight for KL divergence loss |
 | `--lambda_fe` | 1.0 | Weight for feature extraction loss |
 | `--patience` | 15 | Early stopping patience |
-
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{causal2024,
-  title={Causal Representation Learning for Multimodal Medical Imaging},
-  author={...},
-  journal={arXiv preprint arXiv:2407.14058},
-  year={2024},
-  url={https://arxiv.org/pdf/2407.14058}
-}
 ```
 
 
