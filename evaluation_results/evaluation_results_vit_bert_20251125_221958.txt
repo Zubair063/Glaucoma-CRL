@@ -1,0 +1,49 @@
+============================================================
+EVALUATION RESULTS
+============================================================
+Checkpoint: ./checkpoints/vit_bert/model_best.pt
+Model Type: base
+Test Samples: 2000
+Evaluation Date: 2025-11-25 22:19:58
+============================================================
+
+
+============================================================
+SUMMARY
+============================================================
+Overall AUC: 0.9095
+Overall Sensitivity: 0.8817
+Overall Specificity: 0.7318
+
+Group-specific AUCs:
+  Asian: 0.9441 (n=158)
+  Black: 0.9125 (n=305)
+  White: 0.9057 (n=1537)
+
+============================================================
+DETAILED METRICS
+============================================================
+Overall AUC: 0.9095
+Overall Sensitivity: 0.8817
+Overall Specificity: 0.7318
+Overall Accuracy: 0.8085
+
+Group-specific Metrics:
+
+Asian:
+  AUC: 0.9441
+  Sensitivity: 0.9241
+  Specificity: 0.8354
+  N Samples: 158
+
+Black:
+  AUC: 0.9125
+  Sensitivity: 0.8622
+  Specificity: 0.7890
+  N Samples: 305
+
+White:
+  AUC: 0.9057
+  Sensitivity: 0.8824
+  Specificity: 0.7136
+  N Samples: 1537

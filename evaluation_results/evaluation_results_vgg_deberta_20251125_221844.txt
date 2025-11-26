@@ -1,0 +1,49 @@
+============================================================
+EVALUATION RESULTS
+============================================================
+Checkpoint: ./checkpoints/vgg_deberta/model_best.pt
+Model Type: vgg_deberta
+Test Samples: 2000
+Evaluation Date: 2025-11-25 22:18:44
+============================================================
+
+
+============================================================
+SUMMARY
+============================================================
+Overall AUC: 0.9140
+Overall Sensitivity: 0.9150
+Overall Specificity: 0.6888
+
+Group-specific AUCs:
+  Asian: 0.9547 (n=158)
+  Black: 0.9166 (n=305)
+  White: 0.9090 (n=1537)
+
+============================================================
+DETAILED METRICS
+============================================================
+Overall AUC: 0.9140
+Overall Sensitivity: 0.9150
+Overall Specificity: 0.6888
+Overall Accuracy: 0.8045
+
+Group-specific Metrics:
+
+Asian:
+  AUC: 0.9547
+  Sensitivity: 0.9367
+  Specificity: 0.7595
+  N Samples: 158
+
+Black:
+  AUC: 0.9166
+  Sensitivity: 0.8980
+  Specificity: 0.7156
+  N Samples: 305
+
+White:
+  AUC: 0.9090
+  Sensitivity: 0.9171
+  Specificity: 0.6781
+  N Samples: 1537

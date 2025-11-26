@@ -1,0 +1,34 @@
+{
+  "checkpoint_path": "./checkpoints/resnet_roberta/model_best.pt",
+  "model_type": "resnet_roberta",
+  "test_samples": 2000,
+  "evaluation_date": "2025-11-25 22:17:07",
+  "metrics": {
+    "overall": {
+      "auc": 0.8962030914353694,
+      "sensitivity": 0.7174975562072337,
+      "specificity": 0.8771750255885363,
+      "accuracy": 0.7955
+    },
+    "groups": {
+      "Asian": {
+        "auc": 0.9323826309886236,
+        "sensitivity": 0.759493670886076,
+        "specificity": 0.8734177215189873,
+        "n_samples": 158
+      },
+      "Black": {
+        "auc": 0.8804530986706609,
+        "sensitivity": 0.6989795918367347,
+        "specificity": 0.8899082568807339,
+        "n_samples": 305
+      },
+      "White": {
+        "auc": 0.8972587652413194,
+        "sensitivity": 0.7179144385026738,
+        "specificity": 0.8757921419518377,
+        "n_samples": 1537
+      }
+    }
+  }
+}

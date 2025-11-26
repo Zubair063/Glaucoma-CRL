@@ -1,0 +1,49 @@
+============================================================
+EVALUATION RESULTS
+============================================================
+Checkpoint: ./checkpoints/efficientnet_distilbert/model_best.pt
+Model Type: efficientnet_distilbert
+Test Samples: 2000
+Evaluation Date: 2025-11-25 22:15:53
+============================================================
+
+
+============================================================
+SUMMARY
+============================================================
+Overall AUC: 0.8909
+Overall Sensitivity: 0.9003
+Overall Specificity: 0.6940
+
+Group-specific AUCs:
+  Asian: 0.9481 (n=158)
+  Black: 0.8988 (n=305)
+  White: 0.8826 (n=1537)
+
+============================================================
+DETAILED METRICS
+============================================================
+Overall AUC: 0.8909
+Overall Sensitivity: 0.9003
+Overall Specificity: 0.6940
+Overall Accuracy: 0.7995
+
+Group-specific Metrics:
+
+Asian:
+  AUC: 0.9481
+  Sensitivity: 0.9494
+  Specificity: 0.8354
+  N Samples: 158
+
+Black:
+  AUC: 0.8988
+  Sensitivity: 0.8980
+  Specificity: 0.7523
+  N Samples: 305
+
+White:
+  AUC: 0.8826
+  Sensitivity: 0.8957
+  Specificity: 0.6717
+  N Samples: 1537

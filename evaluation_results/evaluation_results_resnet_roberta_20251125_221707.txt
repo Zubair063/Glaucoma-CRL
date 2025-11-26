@@ -1,0 +1,49 @@
+============================================================
+EVALUATION RESULTS
+============================================================
+Checkpoint: ./checkpoints/resnet_roberta/model_best.pt
+Model Type: resnet_roberta
+Test Samples: 2000
+Evaluation Date: 2025-11-25 22:17:07
+============================================================
+
+
+============================================================
+SUMMARY
+============================================================
+Overall AUC: 0.8962
+Overall Sensitivity: 0.7175
+Overall Specificity: 0.8772
+
+Group-specific AUCs:
+  Asian: 0.9324 (n=158)
+  Black: 0.8805 (n=305)
+  White: 0.8973 (n=1537)
+
+============================================================
+DETAILED METRICS
+============================================================
+Overall AUC: 0.8962
+Overall Sensitivity: 0.7175
+Overall Specificity: 0.8772
+Overall Accuracy: 0.7955
+
+Group-specific Metrics:
+
+Asian:
+  AUC: 0.9324
+  Sensitivity: 0.7595
+  Specificity: 0.8734
+  N Samples: 158
+
+Black:
+  AUC: 0.8805
+  Sensitivity: 0.6990
+  Specificity: 0.8899
+  N Samples: 305
+
+White:
+  AUC: 0.8973
+  Sensitivity: 0.7179
+  Specificity: 0.8758
+  N Samples: 1537
